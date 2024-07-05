@@ -37,3 +37,20 @@ nev ul li a:hover{
 .dropdown:hover .dropdown-cnontant{
     display: block;
 }
+.product-list{
+    display: none;
+    position: absolute;
+    box-shadow: 0px 6px 20px 0px rgba(252, 9, 9, 0.9)
+}
+.product-list a{
+    display: block;
+    background: yellowgreen;
+    color: red;
+}
+.product-list a:hover{
+    background:white ;
+}
+.product:hover .product-list{
+    display: block;
+}
+
