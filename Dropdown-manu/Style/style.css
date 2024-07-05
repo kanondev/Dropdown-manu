@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nev ul{
+    background: black;
+    overflow: hidden;
+}
+nev ul li{
+    float: left;
+    list-style-type: none;
+
+}
+nev ul li a{
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+nev ul li a:hover{
+    background: yellow;
+    color: black;
+}
+.dropdown-cnontant{
+    display: none;
+    position: absolute;
+    background: rgb(243, 234, 234);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.dropdown-cnontant a{
+    display: block;
+}
+.dropdown-cnontant a:hover{
+    background: yellow;
+    color: black;
+}
+.dropdown:hover .dropdown-cnontant{
+    display: block;
+}
